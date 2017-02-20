@@ -1,0 +1,3 @@
+myReverse list = reverse list
+
+

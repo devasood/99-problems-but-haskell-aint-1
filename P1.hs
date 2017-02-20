@@ -1,6 +1,7 @@
-myLast list = last list
-
--- myLast [1,2,3,4]
--- myLast ['a'..'z']
-
+myLast :: (Ord a) => [a] -> a
+myLast [] = error "Wat"
+myLast [x] = x
+myLast (x:xs)
+	| xs == [] = x
+	| otherwise = myLast xs
 

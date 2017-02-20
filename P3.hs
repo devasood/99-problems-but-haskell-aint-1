@@ -1,3 +1,3 @@
-elementAt list index = list !! index
+elementAt list index = list !! (index - 1)
 
 
